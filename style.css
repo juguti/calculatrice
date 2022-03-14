@@ -1,0 +1,77 @@
+button{width: auto;height: 30px;}
+#cal{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    width: 300px;
+    height: 25px;
+
+}
+#acal{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(172, 172, 172);
+    width: 300px;
+    height: 25px;}
+#pav{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 5;
+    grid-row: 4;
+    width: 600px;
+    height: auto;
+}
+#un{
+    grid-row: 3;
+    grid-column: 1;
+}
+#deux{
+    grid-row: 3;
+    grid-column: 2;
+}
+#trois{
+    grid-row: 3;
+    grid-column: 3;
+}
+#quatre{
+    grid-row: 2;
+    grid-column: 1;
+}
+#cinq{
+    grid-row: 2;
+    grid-column: 2;
+}
+#six{
+    grid-row: 2;
+    grid-column: 3;
+}
+#sept{
+    grid-row: 1;
+    grid-column: 1;
+}
+#huit{
+    grid-row: 1;
+    grid-column: 2;
+}
+#neuf{
+    grid-row: 1;
+    grid-column: 3;
+}
+#zero{
+    grid-row: 4;
+    grid-column: 2;
+}
+#divi{
+    grid-row: 5;
+    grid-column: 2;
+}
+#éga{
+    grid-row: 5;
+    grid-column: 3;}
