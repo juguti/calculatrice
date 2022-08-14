@@ -1,5 +1,5 @@
+let rep=0;
 var ch=document.getElementById('cal')
-var cha=document.getElementById('acal')
 var ancien=""
 document.getElementById("un").addEventListener("click", function(){
     ancien=ch.innerHTML
@@ -58,8 +58,8 @@ document.getElementById("divi").addEventListener("click", function(){
     ch.innerHTML+='/'    
 });
 document.getElementById("éga").addEventListener("click", function(){
-    cha.innerHTML=ch.innerHTML
-    ch.innerHTML= eval(ch.innerHTML)    
+    ch.innerHTML= eval(ch.innerHTML)
+    rep=eval(ch.innerHTML)    
 });
 document.getElementById("sup").addEventListener("click", function(){
     ch.innerHTML= ""    
@@ -67,3 +67,8 @@ document.getElementById("sup").addEventListener("click", function(){
 document.getElementById("retour").addEventListener("click",function(){
     ch.innerHTML=ancien
 });
+function re(params) {
+    ch.innerHTML+=rep
+
+    
+}
